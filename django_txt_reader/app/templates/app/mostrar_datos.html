@@ -1,0 +1,23 @@
+<!-- En mostrar_datos.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Datos Serializados</title>
+</head>
+<body>
+    <h1>Datos Serializados</h1>
+    <ul>
+        {% for datos in datos_serializados %}
+        <li>
+            <strong>Título:</strong> {{ datos.titulo }}<br>
+            <strong>Autor:</strong> {{ datos.autor }}<br>
+            <strong>Fecha:</strong> {{ datos.fecha }}<br>
+            <strong>Descripción:</strong><br>
+            {{ datos.descripcion }}
+        </li>
+        <hr>
+        {% endfor %}
+    </ul>
+</body>
+</html>

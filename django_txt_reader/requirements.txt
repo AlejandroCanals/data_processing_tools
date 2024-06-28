@@ -1,0 +1,4 @@
+﻿asgiref==3.8.1
+chardet==5.2.0
+Django==5.0.6
+tzdata==2024.1
